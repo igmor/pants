@@ -9,8 +9,7 @@ import os
 import subprocess
 import pytest
 
-from twitter.common.contextutil import temporary_dir
-
+from pants.util.contextutil import temporary_dir
 from pants_test.pants_run_integration_test import PantsRunIntegrationTest
 
 
